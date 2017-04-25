@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.4.25)  25 APR 2017 13:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.4.25)  25 APR 2017 16:49
 entering extended mode
 **./master.tex
 (master.tex
@@ -2018,23 +2018,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.17 ...rmekonduktiviten for aluminium, $\lambda$_
-                                                  al$$=228 \frac{W}{m*K}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
 )
-! Missing $ inserted.
-<inserted text> 
-                $
-l.43 \include{teknisk/gitter}
-                             
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 43.
 Package babel Info: Redefining danish shorthand "~
@@ -2043,7 +2027,7 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 43.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 43.
-[5
+ [5
 
 
 
@@ -2085,7 +2069,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 90.
 Here is how much of TeX's memory you used:
  27208 strings out of 493328
  481924 string characters out of 3139121
- 723280 words of memory out of 3000000
+ 724280 words of memory out of 3000000
  30349 multiletter control sequences out of 15000+200000
  17873 words of font info for 54 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
@@ -2099,10 +2083,10 @@ n\ec\dpi600\ecrm1095.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
 s/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
 i8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/urw/bookman/ubkd8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/urw/bookman/ubkl8a.pfb>
-Output written on master.pdf (8 pages, 94664 bytes).
+Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/urw/bookman/ubkd8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/
+type1/urw/bookman/ubkl8a.pfb>
+Output written on master.pdf (8 pages, 96232 bytes).
 PDF statistics:
  189 PDF objects out of 1000 (max. 8388607)
  13 named destinations out of 1000 (max. 500000)
