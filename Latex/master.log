@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.4.25)  25 APR 2017 16:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.4.25)  26 APR 2017 21:41
 entering extended mode
 **./master.tex
 (master.tex
@@ -1908,7 +1908,7 @@ control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 3--6
+Underfull \hbox (badness 1052) in paragraph at lines 3--8
 \T1/cmr/m/n/10.95 thermodynamik er i overordnede træk luft drevne processor-køl
 ere. Da forfatterne
  []
@@ -1928,10 +1928,16 @@ Package babel Info: Redefining danish shorthand "~
 \openout2 = `intro/felt.aux'.
 
  (intro/felt.tex
-Package babel Info: Redefining danish shorthand "|
-(babel)             in language  on input line 2.
-Package babel Info: Redefining danish shorthand "~
-(babel)             in language  on input line 2.
+Runaway argument?
+! Paragraph ended before \M@sect was complete.
+<to be read again> 
+                   \par 
+l.2 
+    
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
 )
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 34.
@@ -1958,7 +1964,55 @@ I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.14 ...¸ge at sammenligne effektfaktoren \epsilon
+                                                   for de nÃ¦vnte systemer.
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+LaTeX Warning: Command \ae invalid in math mode on input line 14.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.15 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+Missing character: There is no æ in font cmr10!
+! Missing $ inserted.
+<inserted text> 
+                $
+l.16 \epsilon
+              = \frac{Q_{$til$}{W_k}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
 )
+Runaway argument?
+{Q_{$til$}{W_k} 
+! File ended while scanning use of \frac .
+<inserted text> 
+                \par 
+l.38 \include{system/beskrivelse}
+                                 
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.38 \include{system/beskrivelse}
+                                 
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 38.
 Package babel Info: Redefining danish shorthand "~
@@ -1967,7 +2021,7 @@ Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 38.
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 38.
- [3
+[3
 
 
 ]
@@ -2018,6 +2072,191 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
+! Missing { inserted.
+<to be read again> 
+                   $
+l.17 ...rmekonduktiviten for aluminium, $\lambda_$
+                                                  {al}$=228$  og med vÃ¦gtyk...
+A left brace was mandatory here, so I've put one in.
+You might want to delete and/or insert some corrections
+so that I will find a matching right brace soon.
+(If you're confused by all this, try typing `I}' now.)
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.17 ...rmekonduktiviten for aluminium, $\lambda_$
+                                                  {al}$=228$  og med vÃ¦gtyk...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \c@$ 
+l.19 ...Ã¥ kendt som Newtons ligning. Hvor $\alph$
+                                                  a skal isoleres og findes.
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.20 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.21  Dette gÃ¸res ved at isolere \alpha
+                                         i ligningen Nu = $\frac{\alpha}*{\l...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.21 ...re \alpha i ligningen Nu = $\frac{\alpha}*
+                                                  {\lambda}$
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.21 ...re \alpha i ligningen Nu = $\frac{\alpha}*
+                                                  {\lambda}$
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.21 ...re \alpha i ligningen Nu = $\frac{\alpha}*
+                                                  {\lambda}$
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\frac  #1#2->{\begingroup #1\endgroup \@@over #2}
+                                                 
+l.21 ...re \alpha i ligningen Nu = $\frac{\alpha}*
+                                                  {\lambda}$
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 25--27
+[]\T1/cmr/m/n/10.95 Strømningsforholdende for luft(fluiden) imellem lammelerne 
+i gitteret er tvungen
+ []
+
+
+LaTeX Warning: Command \ae invalid in math mode on input line 30.
+
+Missing character: There is no æ in font cmr8!
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.32 ...dtls tal Pl=$\frac{\$eta$*$c_p$}{$\lambda}
+                                                  $ => Pr=0.083
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.32 ...dtls tal Pl=$\frac{\$eta$*$c_p$}{$\lambda}
+                                                  $ => Pr=0.083
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.32 ...dtls tal Pl=$\frac{\$eta$*$c_p$}{$\lambda}
+                                                  $ => Pr=0.083
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.32 ...dtls tal Pl=$\frac{\$eta$*$c_p$}{$\lambda}
+                                                  $ => Pr=0.083
+Things are pretty mixed up, but I think the worst is over.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.32 ...dtls tal Pl=$\frac{\$eta$*$c_p$}{$\lambda}
+                                                  $ => Pr=0.083
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.32 ...dtls tal Pl=$\frac{\$eta$*$c_p$}{$\lambda}
+                                                  $ => Pr=0.083
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+\frac  #1#2->{\begingroup #1\endgroup \@@over #2}
+                                                 
+l.32 ...dtls tal Pl=$\frac{\$eta$*$c_p$}{$\lambda}
+                                                  $ => Pr=0.083
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.37 Nu= 0.664*Re_
+                  {m}^1/2 * Pr^1/2
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.38 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.41 ...ing for varmeovergang : $\Phi$=$\alpha$*A_
+                                                  {lam}$*$t_{fl}$-$t_v$ ,  H...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
 )
 Package babel Info: Redefining danish shorthand "|
 (babel)             in language  on input line 43.
@@ -2028,7 +2267,6 @@ Package babel Info: Redefining danish shorthand "|
 Package babel Info: Redefining danish shorthand "~
 (babel)             in language  on input line 43.
  [5
-
 
 
 ]
@@ -2063,32 +2301,32 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 90.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 90.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 90.
 Package rerunfilecheck Info: File `master.out' has not changed.
-(rerunfilecheck)             Checksum: 2E83F956D35EAC98B433970B7EF16F06;148.
+(rerunfilecheck)             Checksum: B8AAA7F889BFE59124C1CD9576FA77D2;108.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 90.
  ) 
 Here is how much of TeX's memory you used:
- 27208 strings out of 493328
- 481924 string characters out of 3139121
- 724280 words of memory out of 3000000
- 30349 multiletter control sequences out of 15000+200000
- 17873 words of font info for 54 fonts, out of 3000000 for 9000
+ 27197 strings out of 493328
+ 481767 string characters out of 3139121
+ 725280 words of memory out of 3000000
+ 30342 multiletter control sequences out of 15000+200000
+ 15614 words of font info for 51 fonts, out of 3000000 for 9000
  1143 hyphenation exceptions out of 8191
- 46i,12n,80p,10487b,744s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc} <C:\Users\Martin\Ap
-pData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1095.pk> <C:\User
-s\Martin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.p
-k> <C:\Users\Martin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\ecbx1095.pk> <C:\Users\Martin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
-n\ec\dpi600\ecrm1095.pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
-i8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/Mi
-KTeX 2.9/fonts/type1/urw/bookman/ubkd8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/urw/bookman/ubkl8a.pfb>
-Output written on master.pdf (8 pages, 96232 bytes).
+ 46i,11n,80p,10487b,744s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Martin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
+\ecbx1440.pk> <C:\Users\Martin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
+n\ec\dpi600\tcrm1095.pk> <C:\Users\Martin\AppData\Local\MiKTeX\2.9\fonts\pk\ljf
+our\jknappen\ec\dpi600\ecrm1095.pk>{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips
+/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/
+Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/book
+man/ubkd8a.pfb>
+Output written on master.pdf (8 pages, 117098 bytes).
 PDF statistics:
- 189 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
- 25 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 181 PDF objects out of 1000 (max. 8388607)
+ 12 named destinations out of 1000 (max. 500000)
+ 17 words of extra memory for PDF output out of 10000 (max. 10000000)
 

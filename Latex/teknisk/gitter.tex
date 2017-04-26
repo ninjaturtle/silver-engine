@@ -1,12 +1,12 @@
-\chapter{gitter}
+\section{gitter}
 
 Fælles for alle 3 systemer er kølegitteret af aluminium, der er i kontakt med processoren. 
 I simple systemer udgør den den eneste part i kølesystemet og kan selvfølgelig bestå af andre materialer end Aluminium. 
 Men i rapporten her vil der bliver brugt aluminum som grundlag. 
 
-Kølegitteret udnytter overflade areal til at bortlede varme ved konvenktion fra et fast materiale(aluminium) til et et fluid(atmosfærisk luft) .
+Kølegitteret udnytter overflade areal til at bortlede varme ved konvektion fra et fast materiale(aluminium) til et et fluid(atmosfærisk luft) .
 
-En hyppig forekommende struktur i et køle gitter er ribbe, der giver en tvungen strømning af den varme luft bort fra kølegitteret. Som stiger til vejrs, hvor den erestattes af køligere luft. 
+En hyppig forekommende struktur i et køle gitter er ribbe, der giver en tvungen strømning af den varme luft bort fra kølegitteret. Som stiger til vejrs, hvor den erestattes af køligere luft. e
 
 
 \include{billeder/heatsink1}
@@ -14,12 +14,31 @@ En hyppig forekommende struktur i et køle gitter er ribbe, der giver en tvungen
 
 Tallene for ovenstående kølegitter er importeret fra en partfil i solidworks
 
-Areal A=93733.73 $mm^2$  Massen m=$31,58 gr.$ og varmekonduktiviten for aluminium, $\lambda_{al}$=228  og med vægtykkelsen $\delta$ på 0.5 mm
+H =20 mm, b=25,5 mm, d=1 mm Areal A=93733.73 $mm^2$  Massen m=$31,58 gr.$ og varmekonduktiviten for aluminium, $\lambda_${al}$=228$  og med vægtykkelsen $\delta$ på 0.5 mm c$_p$=1.008     c=0.001
+For at udregne varmestrømmen $\phi$  tages udgangspuuntk i udtrykket
+ $\Phi$=$\alpha*A$($t_{fl}$-$t_v$ også kendt som Newtons ligning. Hvor $\alph$a skal isoleres og findes. kinematisk viskositet er: 18.88 og dynamisk viskositet = 16.92
+ 
+ Dette gøres ved at isolere \alpha i ligningen Nu = $\frac{\alpha}*{\lambda}$
+ Nu er nusselts tal og findes herunder ved at udregne Reynolds(Re) og Prandtls(pr) tal.
 
-varmestrømmen igennem gitteret kan beskrives ved : 
 
-Sat ind i newtons ligning : $\Phi$=$\alpha*A$($t_{fl}$-$t_v$ ,  Hvor $\phi$ er i enheden $\dfrac{w}{m*K}$
+Strømningsforholdende for luft(fluiden) imellem lammelerne i gitteret er tvungen konvektion.
+Hvorfor udregninger af strømningsforholdende beregnet som en funktion af reyleighs og Prandtls tal.
 
-$\alpha$ er varmeovergangstallet og er givet ved udtrykket $\dfrac{\lambda}{\delta}$      Så for tallene indsat i newtons ligning fås :
+Til udregningen af Reynolds tal skal bruges den hydraulik diameter der i (termodynamik bogen) er defineret som $\frac{2*h*d}{h*d}$
 
-$\Phi$=$\dfrac{\lambda}{\delta}$*A$($t_{fl}$-$t_v$
+Reference temperaturen udregnes til : $t_{film}$=$\frac{{væg}+t_{fluid}}{2}$ => $t_{film}$=50
+	Reynolds tal Re =$\frac{c*L}{h*b*d}$ => Re =12*E6.
+	Prandtls tal Pl=$\frac{\$eta$*$c_p$}{$\lambda}$ => Pr=0.083
+
+Værdien for Reynolds tal ligger langt uden for de værdier hvor man normalt forccenter at få turbulare strømninger(Re$\approx$5*10$^5$)
+Hvorfor udtrykket på den baggrund formodes at være laminar over hele længden af lammet i kølegitteret. 
+
+Nu= 0.664*Re_{m}^1/2 * Pr^1/2
+
+varmestrømmen fra gitteret og ud i grænselaget med tykkelsen $\delta$ kan beskrives ved : 
+
+Newtons ligning for varmeovergang : $\Phi$=$\alpha$*A_{lam}$*$t_{fl}$-$t_v$ ,  Hvor $\phi$ er i enheden $\frac{w}{m*K}$ 
+
+%Så for tallene indsat i newtons varmeovergangs ligning fås varmestrømmen \phi = -0.003
+

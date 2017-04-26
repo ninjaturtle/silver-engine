@@ -1,3 +1,2 @@
 \select@language {danish}
-\contentsline {section}{\numberline {0.1}felt}{2}{section.0.1}
-\contentsline {chapter}{\chapternumberline {1}gitter}{5}{chapter.1}
+\contentsline {section}{\numberline {0.1}gitter}{5}{section.0.1}
