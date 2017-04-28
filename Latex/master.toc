@@ -1,4 +1,11 @@
 \select@language {danish}
-\contentsline {section}{\numberline {0.1}metode}{5}{section.0.1}
-\contentsline {section}{\numberline {0.2}gitter}{6}{section.0.2}
-\contentsline {section}{\numberline {0.3}Heatpipe}{7}{section.0.3}
+\contentsline {section}{\numberline {0.1}Indledning}{1}{section.0.1}
+\contentsline {section}{\numberline {0.2}felt}{2}{section.0.2}
+\contentsline {section}{\numberline {0.3}system/beskrivelse}{3}{section.0.3}
+\contentsline {section}{\numberline {0.4}processor}{4}{section.0.4}
+\contentsline {section}{\numberline {0.5}metode}{5}{section.0.5}
+\contentsline {section}{\numberline {0.6}Gitter}{6}{section.0.6}
+\contentsline {section}{\numberline {0.7}beregninger}{8}{section.0.7}
+\contentsline {section}{\numberline {0.8}radiation}{9}{section.0.8}
+\contentsline {section}{\numberline {0.9}Heatpipe}{10}{section.0.9}
+\contentsline {section}{\numberline {0.10}varmer\IeC {\o }r}{11}{section.0.10}

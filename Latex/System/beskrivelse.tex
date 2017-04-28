@@ -1,13 +1,15 @@
-\section[system/beskrivelse]
+\section{system/beskrivelse}
 
 Fælles for alle PC kølesystemerne i denne rapport er den første komponent der leder varmen væk fra processoren.
 
 Kølesystemet for en computerprocessor i første indsats består af en varmeledning af varme fra processor til kølesystem.
 Ofte faciliteres varmetransmissionen ved hjælp af en pasta, for at maximere kontaktflade til kølesystemet og for at modvirke galvanisk tæring.
-I kildelisten er to eksempler på en pasta, med konduktivitets værdier på 0,8 og 12,5 W/m*K.
+I kildelisten er to eksempler på en pasta, med konduktivitets værdier på imellem 0,8 og 12,5 W/m*K.
 imidlertid er intentionen med kølepasta, at optimere overflade kontakten imellem kølegitter og processor og ikke skabe et seperat lag, hvor der kan dannes ekstra varme modstand. Så laget af kølepasta vil her blive negligeret. På en moderne processor med millioner af transistorer, er det iøvrigt set at processoren kan smelte ved brug. Så Termodynamik indgår i design, funktion og brug af en computer.
 
-forfatterne er klar over at GPU(graphical processor unit) og så er en en genstand der ser ser ud til at optage mere plads som tiden går.  
-Men det umiddelbare indtryk er at GPU og CPU, set som termodynamiske genstand og arbejdskilder er identiske, hvorfor CPU vil brugt i flæng om både CPU og GPU. 
-
-\epsilon = \frac{Q_{$til$}{W_k}
+Forfatterne er klar over at GPU(graphical processor unit) og så er en en genstand der fylder mere med tiden, både functionelt, men også rent fysiskr.  
+Men det umiddelbare indtryk er at GPU og CPU, set som termodynamiske genstand og arbejdskilder er identiske, hvorfor CPU vil brugt i flæng om både CPU og GPU.
+Eller kan ihvertfald betragtes som sådan idet outputtet blandt andet er afhængig af den strøm, processoren afsætter, nemlig :
+ strømforbrug*frekvenshastigheden*capacitans 
+ (kilde :ftp://download.intel.com/design/network/papers/30117401.pdf)
+\epsilon = $\frac{Q_{til}{W_k}$
