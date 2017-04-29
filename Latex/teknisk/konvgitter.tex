@@ -14,18 +14,20 @@ Reference temperaturen udregnes til :
 \\Prandtls tal Pl(opslag) => $Pr=0.69$
 
 
-Der antages lodret  strømning af luften og Rayleighs tal undersøges.\\
-$ Ra = Gr*Pr = 6.052*10^4$ => \\ 
-Hvilket indikerer laminar strømning over hele længden af et lamel. Hvorfor strømningen ikke undersøges yderligere, idet Ra er 10^5 mindre, end den forventede kritiske værdi for turbulent strømning.
+Der antages lodret  strømning af luften og Reynold tal undersøges for at få et hit om strømningsformen\\
+
+$Re = \frac{c_{luft}*L_{hyd}}{\upsilon} = 2.648*10^{-5}$
+%$ Ra = Gr*Pr = 6.052*10^4$ => \\ 
+Hvilket indikerer laminar strømning over hele længden af et lamel. Hvorfor strømningen ikke undersøges yderligere, idet Re er $10^9$ mindre, end den forventede kritiske værdi for turbulent strømning.
 
 Hastghedsprofilet hvorved den opvarmede luft stiger til vejr er udregnet til: 
 $0.05*Re*L_{hd} = 0.001 $
 
 Hvilket medfører at Nusselts tal kan udregnes som \\ 
-$Nu = 3,66+ \frac{0.0668*Re*Pr*\frac{D}{L_{lam}}}{1+0.004*()\frac{D}{L_{lam}}k *Re*Pr})^2/3 = 3.703$
+$Nu = 3,66+ \frac{0.0668*Re*Pr*\frac{D}{L_{lam}}}{1+0.004*()\frac{D}{L_{lam}}k *Re*Pr})^{2/3} = 3.661$
 
 
 Den kritisk værdi findes da ved: $Nu_m = C*Ra^4$
 
-og$ \Phi = \alpha*A(t_{fl}-t_v =>2.597*10^6 W $\\ 
+og $ \Phi = \alpha*A(t_{fl}-t_v =>2.597*10^6 W $\\ 
 justeret til milimeter ved udtrykket: $\frac{\Phi = \alpha*A*(t_{fl}-t_v}{10^6} =>0.75 W$
