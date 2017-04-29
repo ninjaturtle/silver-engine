@@ -1,7 +1,8 @@
 \select@language {danish}
 \contentsline {section}{\numberline {0.1}Indledning}{1}{section.0.1}
-\contentsline {section}{\numberline {0.2}system/beskrivelse}{2}{section.0.2}
-\contentsline {section}{\numberline {0.3}processor}{3}{section.0.3}
-\contentsline {section}{\numberline {0.4}metode}{4}{section.0.4}
+\contentsline {section}{\numberline {0.2}Beskrivelse}{2}{section.0.2}
+\contentsline {section}{\numberline {0.3}Processor}{3}{section.0.3}
+\contentsline {section}{\numberline {0.4}Metode}{4}{section.0.4}
 \contentsline {section}{\numberline {0.5}Gitter}{5}{section.0.5}
-\contentsline {section}{\numberline {0.6}beregninger}{6}{section.0.6}
+\contentsline {section}{\numberline {0.6}Beregninger}{6}{section.0.6}
+\contentsline {section}{\numberline {0.7}konklussion}{8}{section.0.7}
