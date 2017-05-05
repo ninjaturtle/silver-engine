@@ -12,7 +12,7 @@ Der præsenteres her en oversigt over de værdier der bruges i udregningerne:
 
 Der beregnes varmestrøm for konvektion og for stråling.
 
-Tallene for ovenstående kølegitter er importeret fra en partfil i Solidworks. %Kanalen for strømningen af luft der regnes for er d(1mm) bred og den hydraulisk diameter regnes som værende en snæver kanal, hvor L=2*a
+Dimensionerne for kølegitteret er importeret fra en partfil i Solidworks. %Kanalen for strømningen af luft der regnes for er d(1mm) bred og den hydraulisk diameter regnes som værende en snæver kanal, hvor L=2*a
 
 $H = 20\ mm$, $b = 25,5\ mm$, $d = 1\ mm$, Areal $A_t = 93733.73\ mm^2$, $A_{lamel}= 500\ mm^2$  \\ 
 Massen $m = 31,58 g$ \\
@@ -21,8 +21,7 @@ Lameltykkelsen $\delta = 0.5\ mm.$  \\
 Den specifikke varmekapacitet $c_{p} = 1.008\ kJ/kg*K$ \\
 Strømningshastighed lodret, i lamellens længde på $c = 0.001\ m/s$ \\
 
-For at udregne varmestrømmen $\phi$  bruges udtrykket \\ $\Phi = \alpha * A* (t\_{fl}-t\_v$ \\  også kendt som Newtons ligning. \\ 
-Hvoraf varmekonduktiviteten $\alpha$ er fundet ved tabel opslag $\alpha = 21.8$ \\
+Varmekonduktiviteten $\alpha$ er fundet ved tabel opslag $\alpha = 21.8$ \\
 Kinematisk viskositet er: $18.88$ og dynamisk viskositet = $16.92$  \\
 Volumenudvidelseskoefficienten $\beta_luft = 3,2$ \\
  
@@ -32,6 +31,8 @@ Varmeovergangsmodstanden : $R_o = \frac{1}{\alpha_{tl}*A_{lamel}} = 89.394$ \\
 Total termisk modstand er $R_{tot} = R_l + R_o = 92.225$ \\
 
 \section{Beregninger}
+
+For at udregne varmestrømmen $\phi$  bruges udtrykket \\ $\Phi = \alpha * A* (t\_{fl}-t\_v$ \\  også kendt som Newtons ligning. \\ 
 
 Varmestrømmen $\phi$ udregnes ved ligningen Nu = $\frac{\alpha}*{\lambda}$ \\
 Nu er Nusselts tal og findes herunder ved at udregne Reynolds(Re) og Prandtls(pr) tal.
@@ -53,16 +54,31 @@ Den kritiske værdi for Re hvor strømningen overgår fra at være laminar til a
 Hastighedsprofilen hvorved den opvarmede luft stiger til vejrs er udregnet til: 
 $0.05*Re*L_{hd} = 0.001 $
 
+Her følger et overblik over forksellene på to strømningsformer.
+
+\subsection{Tvungen indvendig strømning}
 Det medfører at Nusselts tal kan udregnes som \\ 
-$Nu = 3,66+ \frac{0.0668*Re*Pr*\frac{D}{L_{lamel}}}{1+0.004*()\frac{D}{L_{lamel}}k *Re*Pr})^{2/3} = 3.661$
+$Nu = 3,66+ \frac{0.0668*Re*Pr*\frac{D}{L_{lamel}}}{1+0.004*()\frac{D}{L_{lamel}}*k *Re*Pr})^{2/3} = 3.661$
 
 
 %Den kritisk værdi findes da ved: $Nu_m = C*Ra^4$
 
-og $ \Phi = \alpha*A(t_{fl}-t_v =>2.597*10^6 W $\\ 
-justeret til milimeter ved udtrykket: $\frac{\Phi = \alpha*A*(t_{fl}-t_v}{10^6} =>0.75 W$
+og $ \Phi_{tis} = \alpha*A(t_{fl}-t_v =>2.597*10^6 W $\\ 
+justeret til milimeter ved udtrykket: $\frac{\Phi = \alpha*A*(t_{fl}-t_v}{10^6} =>160,4 W$
 
-samtlige lammeler afgiver da $0,75 w* 40 \approx 30 W$ i varmestrøm til luften der passerer. 
+Hvor luftens hastigheds profil er fuldt udviklet efter :
+$0,05*Re = 0,03 mm$
+
+samtlige lameller afgiver da $0,75 w* 40 \approx 30 W$ i varmestrøm til luften der passerer. 
+
+\subsection{Fri Konvektion}
+
+Fri konvektion er et lidt tænkt scenarie, som er lidt begrænset i sin relevans men dog brugbar for enkelt-lameller og dele af kølegitteret.
+
+$Nu_{fri} = (\frac{Gr_{L}}{4})^4 * (\frac{0,75*Pr^1/2}{(0.609+1,221*Pr^1/2+1,238*Pr)})^1/4$
+og ledetallet $\alpha_{fri} = 2,768*10^3$
+
+Varmestrømmen $\phi_{fri}=169,37$
 
 \begin{figure}
 	\centering
@@ -70,7 +86,6 @@ samtlige lammeler afgiver da $0,75 w* 40 \approx 30 W$ i varmestrøm til luften 
 	\caption{Eksempel på kølegitter, Fra grabcad.com - bruger: Fernando}
 	\label{fig:heatsink1}
 \end{figure}
-
 
 \begin{figure}
 	\centering
